@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'Blinder',
   packages = ['Blinder'],
-  version = '0.1',
+  version = 'v0.1',
   license='GPL V3.0',
   description = 'Blidner is a small python library to automate time-based blind SQL injection by using a pre defined queries as a functions to automate a rapid PoC development.
 ',   # Give a short description about your library
   author = 'Askar',
   author_email = 'm.askar@isecur1ty.org',
   url = 'https://github.com/user/reponame',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url = 'https://github.com/mhaskar/Blinder/archive/v0.1.tar.gz',
   keywords = ['SQL injection', 'Pentesting', "AppSec"],
   install_requires=[
           'requests',
