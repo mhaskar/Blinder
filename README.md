@@ -75,7 +75,7 @@ root@kali:~/Desktop#
 import Blinder
 
 blind = Blinder.blinder(
-    "http://192.168.1.18/sql_injection/index.php?search=3",
+    "http://sqli-lab/sql_injection/index.php?search=3",
     sleep=1
  )
 
