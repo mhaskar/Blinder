@@ -39,9 +39,9 @@ print blind.check_injection()
 The execution result will be:
 
 ```
-root@kali:~/Desktop# python check.py 
+root@kali:~/Desktop# python check.py
 True
-root@kali:~/Desktop# 
+root@kali:~/Desktop#
 ```
 **You can Get database name using the following code:**
 
@@ -62,9 +62,9 @@ print "Database name is : %s " % blind.get_database()
 And the results will be:
 
 ```
-root@kali:~/Desktop# python get-database.py 
-Database name is : db1 
-root@kali:~/Desktop# 
+root@kali:~/Desktop# python get-database.py
+Database name is : db1
+root@kali:~/Desktop#
 ```
 
 **To get tables names you can use the following code:**
@@ -88,8 +88,15 @@ for table in tables:
 And the results will be:
 
 ```
-root@kali:~/Desktop# python get-tables.py 
+root@kali:~/Desktop# python get-tables.py
 blogs
 notes
-root@kali:~/Desktop# 
+root@kali:~/Desktop#
 ```
+# TODO
+
+A lot of features should be added soon like:
+
+* [ ] the ability of adding customized query
+* [ ] test injection points based on burp request
+* [ ] extract tables/columns data
