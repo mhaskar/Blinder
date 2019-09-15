@@ -20,7 +20,7 @@ You can use Blinder "with the current version" to do the following:
 * Get database name.
 * Get tables names.
 
-**You can check for injection in a URL using the following code:
+**You can check for injection in a URL using the following code:**
 
 ```
 #!/usr/bin/python
@@ -43,7 +43,7 @@ root@kali:~/Desktop# python check.py
 True
 root@kali:~/Desktop# 
 ```
-**You can Get database name using the following code:
+**You can Get database name using the following code:**
 
 ```
 #!/usr/bin/python
@@ -67,7 +67,7 @@ Database name is : db1
 root@kali:~/Desktop# 
 ```
 
-**To get tables names you can use the following code:
+**To get tables names you can use the following code:**
 
 ```
 #!/usr/bin/python
