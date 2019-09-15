@@ -15,7 +15,7 @@ setup(
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',
-    'Intended Audience :: Pentesters',
+    'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: GPL V3.0',
     'Programming Language :: Python :: 2.7'
